@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZBOrientation_Example' do
+  pod 'ZBOrientation', :path => '../'
+
+  target 'ZBOrientation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
