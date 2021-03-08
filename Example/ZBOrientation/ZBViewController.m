@@ -7,6 +7,7 @@
 //
 
 #import "ZBViewController.h"
+#import "ZBSDKViewController.h"
 
 @interface ZBViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    ZBSDKViewController *sdk_vc = [ZBSDKViewController new];
+    sdk_vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:sdk_vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

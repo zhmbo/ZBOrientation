@@ -1,0 +1,16 @@
+PODS:
+  - ZBOrientation (0.1.0)
+
+DEPENDENCIES:
+  - ZBOrientation (from `../`)
+
+EXTERNAL SOURCES:
+  ZBOrientation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZBOrientation: 2471ac4dee965c3d233165f64935e61b1b596cb7
+
+PODFILE CHECKSUM: 3cfaa45bf7d6731904ccadef179debd675adc976
+
+COCOAPODS: 1.10.0

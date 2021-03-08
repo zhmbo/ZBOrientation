@@ -1,0 +1,6 @@
+framework module Pods_ZBOrientation_Tests {
+  umbrella header "Pods-ZBOrientation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

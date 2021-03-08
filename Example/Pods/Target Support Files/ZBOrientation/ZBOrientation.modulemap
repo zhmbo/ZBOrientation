@@ -1,0 +1,6 @@
+framework module ZBOrientation {
+  umbrella header "ZBOrientation-umbrella.h"
+
+  export *
+  module * { export * }
+}

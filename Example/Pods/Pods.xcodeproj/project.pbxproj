@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E435B04940E9BD7429FC9C733C440DB /* ZBUIViewController+Ex.h in Headers */ = {isa = PBXBuildFile; fileRef = FD89735EB2FE0BD5F5B2377D6A3DC064 /* ZBUIViewController+Ex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26447341325DFA54CE3EBA841463E226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		494593E5162F156848C147E3EC196486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61F06B3FEF3D2676B5C7C395CD8030F5 /* ZBNSObject+Ex.h in Headers */ = {isa = PBXBuildFile; fileRef = F3855B1C4C7E90C067D98290167014F1 /* ZBNSObject+Ex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B89F0FF2294FE2F3828F1EA571327EF /* ZBUIViewController+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 683AB32D43A2FE8FB151005453522D3F /* ZBUIViewController+Ex.m */; };
+		70256DAA9F580D9C8E1E5FCD46E9CC64 /* Pods-ZBOrientation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344D0A6FA5E7DA238E3E915066A5946 /* Pods-ZBOrientation_Example-dummy.m */; };
+		784FCFDA35EB002ADA55FF27AB85966A /* Pods-ZBOrientation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF7DD822096A0DCB3E1640109AE3A6 /* Pods-ZBOrientation_Tests-dummy.m */; };
+		A5094506C2B989F42E251F1D39E61085 /* ZBSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 959FD7BD87418ADC7501BD65FC8AD6BF /* ZBSwizzle.m */; };
+		A606BAD5797A9BA5BA56152A5525A683 /* Pods-ZBOrientation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02BD4577318B3DF00C1DBD2BE86E36 /* Pods-ZBOrientation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D25CE8F1CE9B18AEC057C7D63CF1C8 /* ZBOrientation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FF9E4A973F6C8612F4016CF12A763F /* ZBOrientation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B131E77934210548DAEF134E9325BEE3 /* ZBOrientation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5FE2F59E003AE689E97EA261A3E2D /* ZBOrientation-dummy.m */; };
+		CF85A80D91DC8F76FBD8520A2D1FF522 /* ZBOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9C707ED5818AAB21877267743C60E7 /* ZBOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D528E2D452C9AB3A32C7C6E690DCFBA8 /* Pods-ZBOrientation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4AE1B9617CE54FC8AF3CCAF0C0B19E /* Pods-ZBOrientation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA7C299B9B4D9AE5D7420196C0739BDA /* ZBSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8AA27231C08B2C152CD8F1B56231C0 /* ZBSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0189F89BB9ADE2435C80B278EA62BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F1B2721008A6BB22FAF4188AFAD27392 /* ZBNSObject+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 03075E2785DACB6BB30E81097AF499C4 /* ZBNSObject+Ex.m */; };
+		F32D631936FFE4600E7350BB205E4309 /* ZBOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9FD7656C4BC991076012A0B2AB5FD3 /* ZBOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F1A47F9574AF4A2B429D88D1F4FB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD66D10BA6C97B6E67DDD4EF0796391;
+			remoteInfo = "Pods-ZBOrientation_Example";
+		};
+		6FB7B4E923E196EB7135136AE04EFEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D2EF92AEDF5351A635C1F9156A6638;
+			remoteInfo = ZBOrientation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E35CDFED0C99C86A56D13143C0C76E /* Pods-ZBOrientation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZBOrientation_Tests-Info.plist"; sourceTree = "<group>"; };
+		03075E2785DACB6BB30E81097AF499C4 /* ZBNSObject+Ex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZBNSObject+Ex.m"; path = "ZBOrientation/Classes/ZBNSObject+Ex.m"; sourceTree = "<group>"; };
+		0917C47FE2A35C85C4025EC6D678D2AF /* Pods-ZBOrientation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZBOrientation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CF7B7281D807B54018B8CC89F663919 /* Pods_ZBOrientation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBOrientation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BD469C79EFE8CFCFD306463E5B1E31 /* Pods-ZBOrientation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZBOrientation_Example-Info.plist"; sourceTree = "<group>"; };
+		47DF7DD822096A0DCB3E1640109AE3A6 /* Pods-ZBOrientation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZBOrientation_Tests-dummy.m"; sourceTree = "<group>"; };
+		4AD0AA2F439556FE52D89349DD501C26 /* Pods-ZBOrientation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZBOrientation_Example.modulemap"; sourceTree = "<group>"; };
+		4F9FD7656C4BC991076012A0B2AB5FD3 /* ZBOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBOrientation.m; path = ZBOrientation/Classes/ZBOrientation.m; sourceTree = "<group>"; };
+		5662C18D2B16617E359A26944413BEB6 /* Pods-ZBOrientation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZBOrientation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		683AB32D43A2FE8FB151005453522D3F /* ZBUIViewController+Ex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ZBUIViewController+Ex.m"; path = "ZBOrientation/Classes/ZBUIViewController+Ex.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7344D0A6FA5E7DA238E3E915066A5946 /* Pods-ZBOrientation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZBOrientation_Example-dummy.m"; sourceTree = "<group>"; };
+		814824B270ACCF4D0A282F64AF231B21 /* ZBOrientation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZBOrientation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02BD4577318B3DF00C1DBD2BE86E36 /* Pods-ZBOrientation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZBOrientation_Example-umbrella.h"; sourceTree = "<group>"; };
+		959FD7BD87418ADC7501BD65FC8AD6BF /* ZBSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBSwizzle.m; path = ZBOrientation/Classes/ZBSwizzle.m; sourceTree = "<group>"; };
+		988C5D1E4E168B3E3C2EF9721D7A0423 /* Pods-ZBOrientation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZBOrientation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		99926EB158AEA06CE0D765C273C180C7 /* Pods-ZBOrientation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZBOrientation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDAA71A02AA33B455A905CF631BEC9C /* ZBOrientation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZBOrientation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9C707ED5818AAB21877267743C60E7 /* ZBOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBOrientation.h; path = ZBOrientation/Classes/ZBOrientation.h; sourceTree = "<group>"; };
+		B01F3EE5FD06ADAC910CD683F24BCC1F /* ZBOrientation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZBOrientation.debug.xcconfig; sourceTree = "<group>"; };
+		B07481ADE165D19C3D9FEA1DBBAE5EA1 /* Pods-ZBOrientation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZBOrientation_Tests.modulemap"; sourceTree = "<group>"; };
+		BBF2BD1AE78128C91E431B670FBE5FD5 /* ZBOrientation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZBOrientation-prefix.pch"; sourceTree = "<group>"; };
+		BC47DA30A303B1979C19211F6E13E9DE /* Pods-ZBOrientation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZBOrientation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C06003A1C8F0BD98677D567676B73011 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9FF9E4A973F6C8612F4016CF12A763F /* ZBOrientation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZBOrientation-umbrella.h"; sourceTree = "<group>"; };
+		CA4FB263E9AE48AF7A6D7A0E6BB1A108 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CA8AA27231C08B2C152CD8F1B56231C0 /* ZBSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBSwizzle.h; path = ZBOrientation/Classes/ZBSwizzle.h; sourceTree = "<group>"; };
+		D7CFEFCADD444C16C6D1A35C931B8097 /* ZBOrientation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZBOrientation.modulemap; sourceTree = "<group>"; };
+		DEFFDBDFE13F0D5751C03040904BDA15 /* Pods_ZBOrientation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBOrientation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E061CD6EFB1BF8EF9C06DBC34910011D /* ZBOrientation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZBOrientation-Info.plist"; sourceTree = "<group>"; };
+		E693708FC70C9E8F4B94D1DDB46FE4DA /* Pods-ZBOrientation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZBOrientation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAF9DD6C978043F8BE9A7AAFF539F4EC /* Pods-ZBOrientation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZBOrientation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED4AE1B9617CE54FC8AF3CCAF0C0B19E /* Pods-ZBOrientation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZBOrientation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EDC5FE2F59E003AE689E97EA261A3E2D /* ZBOrientation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZBOrientation-dummy.m"; sourceTree = "<group>"; };
+		F3855B1C4C7E90C067D98290167014F1 /* ZBNSObject+Ex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZBNSObject+Ex.h"; path = "ZBOrientation/Classes/ZBNSObject+Ex.h"; sourceTree = "<group>"; };
+		F536F8F8154E70F5819D4EA3E9BE75A2 /* Pods-ZBOrientation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZBOrientation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F758C931720F722D427E68EE451EB21F /* ZBOrientation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZBOrientation.release.xcconfig; sourceTree = "<group>"; };
+		FA5B0FCB024A46113D614EAC1405069C /* Pods-ZBOrientation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZBOrientation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD89735EB2FE0BD5F5B2377D6A3DC064 /* ZBUIViewController+Ex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZBUIViewController+Ex.h"; path = "ZBOrientation/Classes/ZBUIViewController+Ex.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE64017C31A612BA42861F3F0ED0637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26447341325DFA54CE3EBA841463E226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D76D244047AF38F96FEE38C401931F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0189F89BB9ADE2435C80B278EA62BE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863AA10D32FF416A6E16787D1A9C2BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494593E5162F156848C147E3EC196486 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7B8EF26768C829091413E749F6B398 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7CFEFCADD444C16C6D1A35C931B8097 /* ZBOrientation.modulemap */,
+				EDC5FE2F59E003AE689E97EA261A3E2D /* ZBOrientation-dummy.m */,
+				E061CD6EFB1BF8EF9C06DBC34910011D /* ZBOrientation-Info.plist */,
+				BBF2BD1AE78128C91E431B670FBE5FD5 /* ZBOrientation-prefix.pch */,
+				C9FF9E4A973F6C8612F4016CF12A763F /* ZBOrientation-umbrella.h */,
+				B01F3EE5FD06ADAC910CD683F24BCC1F /* ZBOrientation.debug.xcconfig */,
+				F758C931720F722D427E68EE451EB21F /* ZBOrientation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZBOrientation";
+			sourceTree = "<group>";
+		};
+		3FE5C5D0F6A9FEF73E44E52ECAF770C7 /* Pods-ZBOrientation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4AD0AA2F439556FE52D89349DD501C26 /* Pods-ZBOrientation_Example.modulemap */,
+				F536F8F8154E70F5819D4EA3E9BE75A2 /* Pods-ZBOrientation_Example-acknowledgements.markdown */,
+				FA5B0FCB024A46113D614EAC1405069C /* Pods-ZBOrientation_Example-acknowledgements.plist */,
+				7344D0A6FA5E7DA238E3E915066A5946 /* Pods-ZBOrientation_Example-dummy.m */,
+				988C5D1E4E168B3E3C2EF9721D7A0423 /* Pods-ZBOrientation_Example-frameworks.sh */,
+				41BD469C79EFE8CFCFD306463E5B1E31 /* Pods-ZBOrientation_Example-Info.plist */,
+				8E02BD4577318B3DF00C1DBD2BE86E36 /* Pods-ZBOrientation_Example-umbrella.h */,
+				BC47DA30A303B1979C19211F6E13E9DE /* Pods-ZBOrientation_Example.debug.xcconfig */,
+				0917C47FE2A35C85C4025EC6D678D2AF /* Pods-ZBOrientation_Example.release.xcconfig */,
+			);
+			name = "Pods-ZBOrientation_Example";
+			path = "Target Support Files/Pods-ZBOrientation_Example";
+			sourceTree = "<group>";
+		};
+		47F01C5DA9B3D1ECE9EC28D80A8299CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFDBDFE13F0D5751C03040904BDA15 /* Pods_ZBOrientation_Example.framework */,
+				1CF7B7281D807B54018B8CC89F663919 /* Pods_ZBOrientation_Tests.framework */,
+				814824B270ACCF4D0A282F64AF231B21 /* ZBOrientation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1EE669BB18FEF7216D404DDA3EE9F9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9368D6E1E0ED3EFEF269993E4A3335E /* ZBOrientation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8BC409A4A2EB69B798DED3829DE6E5DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C06003A1C8F0BD98677D567676B73011 /* LICENSE */,
+				CA4FB263E9AE48AF7A6D7A0E6BB1A108 /* README.md */,
+				9DDAA71A02AA33B455A905CF631BEC9C /* ZBOrientation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B9368D6E1E0ED3EFEF269993E4A3335E /* ZBOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				CA8AA27231C08B2C152CD8F1B56231C0 /* ZBSwizzle.h */,
+				959FD7BD87418ADC7501BD65FC8AD6BF /* ZBSwizzle.m */,
+				9E9C707ED5818AAB21877267743C60E7 /* ZBOrientation.h */,
+				4F9FD7656C4BC991076012A0B2AB5FD3 /* ZBOrientation.m */,
+				F3855B1C4C7E90C067D98290167014F1 /* ZBNSObject+Ex.h */,
+				03075E2785DACB6BB30E81097AF499C4 /* ZBNSObject+Ex.m */,
+				FD89735EB2FE0BD5F5B2377D6A3DC064 /* ZBUIViewController+Ex.h */,
+				683AB32D43A2FE8FB151005453522D3F /* ZBUIViewController+Ex.m */,
+				8BC409A4A2EB69B798DED3829DE6E5DF /* Pod */,
+				2E7B8EF26768C829091413E749F6B398 /* Support Files */,
+			);
+			name = ZBOrientation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A1EE669BB18FEF7216D404DDA3EE9F9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47F01C5DA9B3D1ECE9EC28D80A8299CF /* Products */,
+				FA4F6C1D96776E6B9822F9B02A34DCDC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF484BBBDC494E87C26B605A349ED42 /* Pods-ZBOrientation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B07481ADE165D19C3D9FEA1DBBAE5EA1 /* Pods-ZBOrientation_Tests.modulemap */,
+				EAF9DD6C978043F8BE9A7AAFF539F4EC /* Pods-ZBOrientation_Tests-acknowledgements.markdown */,
+				99926EB158AEA06CE0D765C273C180C7 /* Pods-ZBOrientation_Tests-acknowledgements.plist */,
+				47DF7DD822096A0DCB3E1640109AE3A6 /* Pods-ZBOrientation_Tests-dummy.m */,
+				02E35CDFED0C99C86A56D13143C0C76E /* Pods-ZBOrientation_Tests-Info.plist */,
+				ED4AE1B9617CE54FC8AF3CCAF0C0B19E /* Pods-ZBOrientation_Tests-umbrella.h */,
+				5662C18D2B16617E359A26944413BEB6 /* Pods-ZBOrientation_Tests.debug.xcconfig */,
+				E693708FC70C9E8F4B94D1DDB46FE4DA /* Pods-ZBOrientation_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZBOrientation_Tests";
+			path = "Target Support Files/Pods-ZBOrientation_Tests";
+			sourceTree = "<group>";
+		};
+		FA4F6C1D96776E6B9822F9B02A34DCDC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE5C5D0F6A9FEF73E44E52ECAF770C7 /* Pods-ZBOrientation_Example */,
+				DBF484BBBDC494E87C26B605A349ED42 /* Pods-ZBOrientation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0030557A1925D766FDB66582F05DDE31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D528E2D452C9AB3A32C7C6E690DCFBA8 /* Pods-ZBOrientation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12C52DADB0A1282B01DE551749144B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A606BAD5797A9BA5BA56152A5525A683 /* Pods-ZBOrientation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451DEADC5A7C32204F14416F4F26188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F06B3FEF3D2676B5C7C395CD8030F5 /* ZBNSObject+Ex.h in Headers */,
+				A7D25CE8F1CE9B18AEC057C7D63CF1C8 /* ZBOrientation-umbrella.h in Headers */,
+				CF85A80D91DC8F76FBD8520A2D1FF522 /* ZBOrientation.h in Headers */,
+				EA7C299B9B4D9AE5D7420196C0739BDA /* ZBSwizzle.h in Headers */,
+				0E435B04940E9BD7429FC9C733C440DB /* ZBUIViewController+Ex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CD66D10BA6C97B6E67DDD4EF0796391 /* Pods-ZBOrientation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544A571E3485C27DABB48A6A91BFC5AC /* Build configuration list for PBXNativeTarget "Pods-ZBOrientation_Example" */;
+			buildPhases = (
+				D12C52DADB0A1282B01DE551749144B4 /* Headers */,
+				6DD838E59242D9CA0D611A526624A0CC /* Sources */,
+				1DE64017C31A612BA42861F3F0ED0637 /* Frameworks */,
+				C5EA99457C1E4C7EA901326ABBAC1650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33975846C45600FD7C4B1A1F2F368305 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZBOrientation_Example";
+			productName = "Pods-ZBOrientation_Example";
+			productReference = DEFFDBDFE13F0D5751C03040904BDA15 /* Pods_ZBOrientation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70D2EF92AEDF5351A635C1F9156A6638 /* ZBOrientation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEB56CADB4ED170752E5E56B72718A8 /* Build configuration list for PBXNativeTarget "ZBOrientation" */;
+			buildPhases = (
+				E451DEADC5A7C32204F14416F4F26188 /* Headers */,
+				AFD7B3F2C9F64B794615305BC86E23F4 /* Sources */,
+				3D76D244047AF38F96FEE38C401931F5 /* Frameworks */,
+				3D8F8635F1DD137CE146C97A44E83739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBOrientation;
+			productName = ZBOrientation;
+			productReference = 814824B270ACCF4D0A282F64AF231B21 /* ZBOrientation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A71F6B5DD25C7E93333D579CDE35167 /* Pods-ZBOrientation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBF436B98C48C9D17AAB3E53BC20CFB /* Build configuration list for PBXNativeTarget "Pods-ZBOrientation_Tests" */;
+			buildPhases = (
+				0030557A1925D766FDB66582F05DDE31 /* Headers */,
+				4BF4BD26A5A68E8AA26C96DA74973349 /* Sources */,
+				863AA10D32FF416A6E16787D1A9C2BB3 /* Frameworks */,
+				659EBEDF800322A516EA3CA08BFA6331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1699877FD32C7F3CD10BC5A65E2357 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZBOrientation_Tests";
+			productName = "Pods-ZBOrientation_Tests";
+			productReference = 1CF7B7281D807B54018B8CC89F663919 /* Pods_ZBOrientation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47F01C5DA9B3D1ECE9EC28D80A8299CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD66D10BA6C97B6E67DDD4EF0796391 /* Pods-ZBOrientation_Example */,
+				7A71F6B5DD25C7E93333D579CDE35167 /* Pods-ZBOrientation_Tests */,
+				70D2EF92AEDF5351A635C1F9156A6638 /* ZBOrientation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8F8635F1DD137CE146C97A44E83739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659EBEDF800322A516EA3CA08BFA6331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EA99457C1E4C7EA901326ABBAC1650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF4BD26A5A68E8AA26C96DA74973349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784FCFDA35EB002ADA55FF27AB85966A /* Pods-ZBOrientation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD838E59242D9CA0D611A526624A0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70256DAA9F580D9C8E1E5FCD46E9CC64 /* Pods-ZBOrientation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD7B3F2C9F64B794615305BC86E23F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B2721008A6BB22FAF4188AFAD27392 /* ZBNSObject+Ex.m in Sources */,
+				B131E77934210548DAEF134E9325BEE3 /* ZBOrientation-dummy.m in Sources */,
+				F32D631936FFE4600E7350BB205E4309 /* ZBOrientation.m in Sources */,
+				A5094506C2B989F42E251F1D39E61085 /* ZBSwizzle.m in Sources */,
+				6B89F0FF2294FE2F3828F1EA571327EF /* ZBUIViewController+Ex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33975846C45600FD7C4B1A1F2F368305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZBOrientation;
+			target = 70D2EF92AEDF5351A635C1F9156A6638 /* ZBOrientation */;
+			targetProxy = 6FB7B4E923E196EB7135136AE04EFEF5 /* PBXContainerItemProxy */;
+		};
+		DA1699877FD32C7F3CD10BC5A65E2357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZBOrientation_Example";
+			target = 3CD66D10BA6C97B6E67DDD4EF0796391 /* Pods-ZBOrientation_Example */;
+			targetProxy = 04F1A47F9574AF4A2B429D88D1F4FB3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6D12517E4CBC5D993DC1D323646F90CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F758C931720F722D427E68EE451EB21F /* ZBOrientation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZBOrientation/ZBOrientation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZBOrientation/ZBOrientation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZBOrientation/ZBOrientation.modulemap";
+				PRODUCT_MODULE_NAME = ZBOrientation;
+				PRODUCT_NAME = ZBOrientation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95E7DE9FF1F8CF2EDD575212BBC346FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC47DA30A303B1979C19211F6E13E9DE /* Pods-ZBOrientation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4795980CEAC0CD2EF2B4BAB842DBD31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0917C47FE2A35C85C4025EC6D678D2AF /* Pods-ZBOrientation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C51B16345A89845127221E2FFC133569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E693708FC70C9E8F4B94D1DDB46FE4DA /* Pods-ZBOrientation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E6BFBEF31AAC1A5245E6826B26D4B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01F3EE5FD06ADAC910CD683F24BCC1F /* ZBOrientation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZBOrientation/ZBOrientation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZBOrientation/ZBOrientation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZBOrientation/ZBOrientation.modulemap";
+				PRODUCT_MODULE_NAME = ZBOrientation;
+				PRODUCT_NAME = ZBOrientation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9989D3A24E6188B147726DE40FBE910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5662C18D2B16617E359A26944413BEB6 /* Pods-ZBOrientation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEB56CADB4ED170752E5E56B72718A8 /* Build configuration list for PBXNativeTarget "ZBOrientation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BFBEF31AAC1A5245E6826B26D4B928 /* Debug */,
+				6D12517E4CBC5D993DC1D323646F90CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBF436B98C48C9D17AAB3E53BC20CFB /* Build configuration list for PBXNativeTarget "Pods-ZBOrientation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9989D3A24E6188B147726DE40FBE910 /* Debug */,
+				C51B16345A89845127221E2FFC133569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544A571E3485C27DABB48A6A91BFC5AC /* Build configuration list for PBXNativeTarget "Pods-ZBOrientation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E7DE9FF1F8CF2EDD575212BBC346FC /* Debug */,
+				B4795980CEAC0CD2EF2B4BAB842DBD31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

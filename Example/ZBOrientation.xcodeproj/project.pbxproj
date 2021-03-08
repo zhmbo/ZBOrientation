@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9D606EE9157A269E074BC2B3 /* Pods_ZBOrientation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6781979FF1CB2A41D8A9258 /* Pods_ZBOrientation_Tests.framework */; };
+		DBD78A8C25F6103E00E80FC5 /* ZBSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */; };
 		E29886D8056BE51B31D52061 /* Pods_ZBOrientation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE44C4364AF32FD840E5406 /* Pods_ZBOrientation_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,7 @@
 		147087559F0B503CE6D0724E /* Pods-ZBOrientation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBOrientation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27A2B2A4D67FE5CA69140E6D /* Pods-ZBOrientation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBOrientation_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZBOrientation_Tests/Pods-ZBOrientation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		38F6223269AF310F19D2D747 /* Pods-ZBOrientation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBOrientation_Example.release.xcconfig"; path = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B3FABF492742D5D515C8A9A /* ZBOrientation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZBOrientation.podspec; path = ../ZBOrientation.podspec; sourceTree = "<group>"; };
+		5B3FABF492742D5D515C8A9A /* ZBOrientation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZBOrientation.podspec; path = ../ZBOrientation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* ZBOrientation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBOrientation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +61,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D791E9DA11D0E69E3619F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D791E9DA11D0E69E3619F80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76D8B26F938B01473F42BD89 /* Pods-ZBOrientation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBOrientation_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZBOrientation_Example/Pods-ZBOrientation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6781979FF1CB2A41D8A9258 /* Pods_ZBOrientation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBOrientation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE44C4364AF32FD840E5406 /* Pods_ZBOrientation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBOrientation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D679F1D1E811779A5BFC8E75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D679F1D1E811779A5BFC8E75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DBD78A8A25F6103E00E80FC5 /* ZBSDKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSDKViewController.h; sourceTree = "<group>"; };
+		DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSDKViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +137,13 @@
 			children = (
 				6003F59C195388D20070C39A /* ZBAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZBAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZBViewController.h */,
 				6003F5A6195388D20070C39A /* ZBViewController.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				DBD78A8A25F6103E00E80FC5 /* ZBSDKViewController.h */,
+				DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ZBOrientation";
@@ -193,7 +198,6 @@
 				147087559F0B503CE6D0724E /* Pods-ZBOrientation_Tests.debug.xcconfig */,
 				27A2B2A4D67FE5CA69140E6D /* Pods-ZBOrientation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = itzhangbao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = W5ELC54N2N;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZBAppDelegate.m in Sources */,
+				DBD78A8C25F6103E00E80FC5 /* ZBSDKViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ZBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,6 +503,7 @@
 			baseConfigurationReference = 76D8B26F938B01473F42BD89 /* Pods-ZBOrientation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5ELC54N2N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBOrientation/ZBOrientation-Prefix.pch";
 				INFOPLIST_FILE = "ZBOrientation/ZBOrientation-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = 38F6223269AF310F19D2D747 /* Pods-ZBOrientation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W5ELC54N2N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZBOrientation/ZBOrientation-Prefix.pch";
 				INFOPLIST_FILE = "ZBOrientation/ZBOrientation-Info.plist";
