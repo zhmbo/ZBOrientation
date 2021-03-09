@@ -50,22 +50,6 @@
     return supportedIO;
 }
 
-// 获取当前屏幕方向已 statusBarOrientation 为准
-+ (UIInterfaceOrientationMask)currentOrientation {
-   switch ([UIApplication sharedApplication].statusBarOrientation) {
-       case UIInterfaceOrientationPortrait:
-           return UIInterfaceOrientationMaskPortrait;
-       case UIInterfaceOrientationPortraitUpsideDown:
-           return UIInterfaceOrientationMaskPortraitUpsideDown;
-       case UIInterfaceOrientationLandscapeLeft:
-           return UIInterfaceOrientationMaskLandscapeLeft;
-       case UIInterfaceOrientationLandscapeRight:
-           return UIInterfaceOrientationMaskLandscapeRight;
-       default:
-           return [ZBOrientation currentOrientation];
-   }
-}
-
 // 获取Xcode配置的方向
 + (UIInterfaceOrientationMask)infoSupportedIO {
    
@@ -104,13 +88,7 @@
     }else {
         return UIInterfaceOrientationMaskAll;
     }
-   
-   UIInterfaceOrientationMask mask;
-   
-   for (id i in maskOrt) {
-       mask = mask | [i integerValue];
-   }
-   return  mask;
 }
+
 @end
 

@@ -1,9 +1,17 @@
 # ZBOrientation
 
-[![CI Status](https://img.shields.io/travis/itzhangbao/ZBOrientation.svg?style=flat)](https://travis-ci.org/itzhangbao/ZBOrientation)
-[![Version](https://img.shields.io/cocoapods/v/ZBOrientation.svg?style=flat)](https://cocoapods.org/pods/ZBOrientation)
-[![License](https://img.shields.io/cocoapods/l/ZBOrientation.svg?style=flat)](https://cocoapods.org/pods/ZBOrientation)
-[![Platform](https://img.shields.io/cocoapods/p/ZBOrientation.svg?style=flat)](https://cocoapods.org/pods/ZBOrientation)
+[![issues](https://img.shields.io/github/issues/itzhangbao/ZBOrientation)
+[![forks](https://img.shields.io/github/forks/itzhangbao/ZBOrientation)
+[![stars](https://img.shields.io/github/stars/itzhangbao/ZBOrientation)
+[![license](https://img.shields.io/github/license/itzhangbao/ZBOrientation)
+
+### It provides horizontal and vertical screen support for SDK to build UI interface
+
+### 专门为SDK构建UI界面提供横竖屏支持。
+
+## 应用场景
+
+我们在开发自己的SDK场景下，在别人接入我们开发的SDK时，SDK是不知道对方工程屏幕是怎样设定的，**ZBOrientation** 是无视对接方工程方向。
 
 ## Example
 
@@ -22,7 +30,7 @@ pod 'ZBOrientation'
 
 ## Author
 
-itzhangbao, itzhangbao@163.com
+itzhangbao, itzhangbao@163.com，itzhangbao.com
 
 ## License
 
