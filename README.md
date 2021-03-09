@@ -5,9 +5,9 @@
 ![stars](https://img.shields.io/github/stars/itzhangbao/ZBOrientation)
 ![license](https://img.shields.io/github/license/itzhangbao/ZBOrientation)
 
-### It provides horizontal and vertical screen support for SDK to build UI interface
+It provides horizontal and vertical screen support for SDK to build UI interface
 
-### 专门为SDK构建UI界面提供横竖屏支持。
+专门为SDK构建UI界面提供横竖屏支持。
 
 ## 应用场景
 
