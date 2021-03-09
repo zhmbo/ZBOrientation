@@ -1,9 +1,9 @@
 # ZBOrientation
 
-[![issues](https://img.shields.io/github/issues/itzhangbao/ZBOrientation)
-[![forks](https://img.shields.io/github/forks/itzhangbao/ZBOrientation)
-[![stars](https://img.shields.io/github/stars/itzhangbao/ZBOrientation)
-[![license](https://img.shields.io/github/license/itzhangbao/ZBOrientation)
+![issues](https://img.shields.io/github/issues/itzhangbao/ZBOrientation)
+![forks](https://img.shields.io/github/forks/itzhangbao/ZBOrientation)
+![stars](https://img.shields.io/github/stars/itzhangbao/ZBOrientation)
+![license](https://img.shields.io/github/license/itzhangbao/ZBOrientation)
 
 ### It provides horizontal and vertical screen support for SDK to build UI interface
 
