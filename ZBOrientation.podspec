@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZBOrientation'
-  s.version          = 'v0.1.0'
+  s.version          = '0.1.0'
   s.summary          = '专门为SDK构建UI界面提供横竖屏支持.'
 
 # This description is used to generate tags and improve search results.
