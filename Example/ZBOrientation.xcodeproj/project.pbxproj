@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9D606EE9157A269E074BC2B3 /* Pods_ZBOrientation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6781979FF1CB2A41D8A9258 /* Pods_ZBOrientation_Tests.framework */; };
 		DBD78A8C25F6103E00E80FC5 /* ZBSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */; };
+		DBEBA2772600561F0057CAC8 /* ZBSDK2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEBA2762600561F0057CAC8 /* ZBSDK2ViewController.m */; };
 		E29886D8056BE51B31D52061 /* Pods_ZBOrientation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE44C4364AF32FD840E5406 /* Pods_ZBOrientation_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		D679F1D1E811779A5BFC8E75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DBD78A8A25F6103E00E80FC5 /* ZBSDKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSDKViewController.h; sourceTree = "<group>"; };
 		DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSDKViewController.m; sourceTree = "<group>"; };
+		DBEBA2752600561F0057CAC8 /* ZBSDK2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBSDK2ViewController.h; sourceTree = "<group>"; };
+		DBEBA2762600561F0057CAC8 /* ZBSDK2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBSDK2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				DBD78A8A25F6103E00E80FC5 /* ZBSDKViewController.h */,
 				DBD78A8B25F6103E00E80FC5 /* ZBSDKViewController.m */,
+				DBEBA2752600561F0057CAC8 /* ZBSDK2ViewController.h */,
+				DBEBA2762600561F0057CAC8 /* ZBSDK2ViewController.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ZBOrientation";
@@ -376,6 +381,7 @@
 				DBD78A8C25F6103E00E80FC5 /* ZBSDKViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ZBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DBEBA2772600561F0057CAC8 /* ZBSDK2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

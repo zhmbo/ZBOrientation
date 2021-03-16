@@ -11,9 +11,17 @@
 @implementation ZBOrientation
 
 + (void)load {
+    
+    // 监听处理中，就可以针对具体的手机方向
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(zb_applicationDidFinishLaunch:) name:UIApplicationDidFinishLaunchingNotification object:nil];
+}
+
++ (void)zb_applicationDidFinishLaunch:(NSNotification *)notification {
+    
+    [ZBOrientation prjSupportedIO];
+    
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector"
-    [ZBOrientation prjSupportedIO];
     [[[UIApplication sharedApplication].delegate class] zb_swizzleMethod:@selector(application:supportedInterfaceOrientationsForWindow:) withMethod:@selector(zb_application:supportedInterfaceOrientationsForWindow:) error:nil];
 //    [[UIViewController class] zb_swizzleMethod:@selector(shouldAutorotate) withMethod:@selector(zb_shouldAutorotate) error:nil];
     [[UIViewController class] zb_swizzleMethod:@selector(supportedInterfaceOrientations) withMethod:@selector(zb_supportedInterfaceOrientations) error:nil];

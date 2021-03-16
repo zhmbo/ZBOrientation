@@ -1,34 +1,32 @@
 //
-//  ZBSDKViewController.m
+//  ZBSDK2ViewController.m
 //  ZBOrientation_Example
 //
-//  Created by Jumbo on 2021/3/8.
+//  Created by Jumbo on 2021/3/16.
 //  Copyright © 2021 itzhangbao. All rights reserved.
 //
 
-#import "ZBSDKViewController.h"
 #import "ZBSDK2ViewController.h"
 
-@interface ZBSDKViewController ()
+@interface ZBSDK2ViewController ()
 
 @end
 
-@implementation ZBSDKViewController
+@implementation ZBSDK2ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = UIColor.cyanColor;
+    
+    self.view.backgroundColor = UIColor.yellowColor;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskLandscape;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    ZBSDK2ViewController *sd2 = [ZBSDK2ViewController new];
-    sd2.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:sd2 animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*

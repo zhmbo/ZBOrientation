@@ -11,7 +11,7 @@
 @implementation NSObject (ZBNSObjectEx)
 
 // 跳转时会替换原来方法更改屏幕总控
-- (UIInterfaceOrientationMask)xx_application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+- (UIInterfaceOrientationMask)zb_application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
     return UIInterfaceOrientationMaskAll;
 }
 
